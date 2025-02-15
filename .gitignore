@@ -1,0 +1,28 @@
+# 通用排除
+*.tmp
+*.log
+*.swp
+.DS_Store
+
+# IDE 配置
+.vscode/
+.idea/
+*.code-workspace
+
+# Python/Juila 环境
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.ji
+*.cov
+Manifest.toml
+
+# 数据文件（保留 molecules 下的 JSON）
+data/*.csv
+data/*.h5
+!data/molecules/*.json  # 保留分子数据（OpenFermion 生成的 JSON）
+
+# 忽略 Artifacts 临时文件
+data/artifacts/*.tmp
+data/artifacts/.cache
