@@ -1,0 +1,23 @@
+[
+H2
+]
+git-tree-sha1 = "855d8f6975c54b0d816e75395cd4cb08eb968f0d"
+lazy = true
+
+    [[
+H2.download
+]]
+    url = "https://github.com/Penguin010928/quantum-chem-testset/releases/download/v1.0/H2_data.tar.gz"
+    sha256 = "8ceb81e45fb2765f2a35519a0b290db163d57311531aa849f6dc871567d7d35c"
+
+[
+LiH
+]
+git-tree-sha1 = "..."  # 替换为LiH的真实tree hash
+lazy = true
+
+    [[
+LiH.download
+]]
+    url = "https://github.com/Penguin010928/quantum-chem-testset/releases/download/v1.0/LiH_data.tar.gz"
+    sha256 = "028dcbbd46a0574732c03ffea83ed92e8dffb1aa12822dd65cf2b1754c42ad98"
